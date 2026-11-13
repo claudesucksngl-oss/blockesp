@@ -1,0 +1,17 @@
+{
+  "schemaVersion": 1,
+  "id": "blockesp",
+  "version": "${version}",
+  "name": "Block ESP",
+  "description": "Outline and tracer ESP for chosen blocks. Press F6 to open the menu.",
+  "environment": "client",
+  "entrypoints": {
+    "client": ["com.blockesp.BlockEspClient"]
+  },
+  "depends": {
+    "fabricloader": ">=0.18.0",
+    "minecraft": "~1.21.11",
+    "java": ">=21",
+    "fabric-api": "*"
+  }
+}
